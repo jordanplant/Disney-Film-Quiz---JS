@@ -238,3 +238,9 @@ function resetGame() {
   container.style.display = "none"; // Hide the container
   resultElement.textContent = ""; // Clear the result
 }
+
+document.addEventListener("keypress", function (event) {
+  if (event.key === "Enter") {
+    checkAnswer(); // Call checkAnswer function on pressing Enter
+  }
+});
