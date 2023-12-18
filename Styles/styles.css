@@ -1,0 +1,104 @@
+:root {
+  --main-color: #00a9fe;
+  --light-color: #f7f7ff;
+  --highlight-color: #be2626;
+  --dark-color: #20242c;
+  --gradient: linear-gradient(#cf0c0c, #ffd901);
+  --gradientTwo: linear-gradient(135deg, #00fee5, #6f47ae);
+  --opaque: #f7f7ff70;
+}
+
+body {
+  background: var(--dark-color);
+  font-family: sans-serif;
+}
+
+h1 {
+  color: var(--light-color);
+}
+
+h2 {
+  color: var(--light-color);
+}
+p {
+  color: var(--light-color);
+  font-size: 20px;
+}
+
+.gameContainer {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.mainQuestion {
+  margin: 0 auto;
+  /* padding: 10px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-overflow: clip;
+}
+
+button {
+  all: unset;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--light-color);
+  background: linear-gradient(#20242c, #20242c) padding-box,
+    linear-gradient(to bottom, #00fee5, #6f47ae) border-box;
+  border-radius: 50em;
+  border: 4px solid transparent;
+  width: 50px;
+  height: 10px;
+  cursor: pointer;
+  /* margin-top: 10px; */
+}
+
+.startButton {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+input {
+  margin: 0 auto;
+  all: unset;
+  background-color: var(--light-color);
+  width: 100%; /* Change the width to 100% to center the input */
+  height: 40px;
+  padding: 10px;
+  text-align: left !important;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
